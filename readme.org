@@ -1,0 +1,55 @@
+#+TITLE: Primeiro projeto React Native
+#+AUTHOR: Hugo Oliveira
+
+* Sobre
+
+Esse foi meu primeiro contato com React Native. Eu não sabia praticamente nada no começo, então a ideia aqui foi só dar os primeiros passos e entender como as coisas funcionam.
+
+O app é bem simples:
+- Tela de login
+- Tela de cadastro
+- Componentes básicos (Input e Button)
+- Navegação usando expo-router
+
+Eu fiz acompanhando um tutorial, mas tentando não só copiar — eu assistia, depois tentava fazer sozinho pra realmente entender.
+
+Tutorial usado:
+- https://www.youtube.com/watch?v=7uGjAMhI8G4
+
+* Tecnologias
+
+- React Native
+- Expo
+- expo-router
+
+* Como rodar
+
+1. Instale as dependências:
+
+#+begin_src bash
+npm install
+#+end_src
+
+2. Rode o projeto:
+
+#+begin_src bash
+npx expo start
+#+end_src
+
+3. Abra no celular (Expo Go) ou emulador
+
+* Objetivo
+
+O objetivo desse projeto não foi fazer algo perfeito, mas sim aprender:
+- como funciona a estrutura de um app mobile
+- como lidar com estados (useState)
+- como criar componentes reutilizáveis
+- noção básica de navegação
+
+* Observações
+
+Ainda tem muita coisa que dá pra melhorar (validação melhor, backend, autenticação real, etc), mas esse projeto já cumpriu o papel dele: me tirar do zero.
+
+Provavelmente vou usar isso como base pra projetos mais completos no futuro.
+
+Sobre o devenv: Ainda nao configurei direito, pelo menos acredito nisso, pois mesmo colocando o android e tals tive dificuldade de fazer funcionar. Vendo isso, como quero aprender logo o react-native, eu baixei o distrobox e fiz por ele.
